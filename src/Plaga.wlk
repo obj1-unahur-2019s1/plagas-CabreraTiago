@@ -7,8 +7,8 @@ class Plaga {
 	}
 
 	method atacar(elemento) {
-		elemento.recibeAtaque(self)
 		poblacion *= 1.1
+		elemento.recibeAtaque(self)
 	}
 
 }
